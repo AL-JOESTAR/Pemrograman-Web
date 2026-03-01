@@ -1,0 +1,7 @@
+@baseUrl = https://dev.test/api/transaction
+@cType = application/json
+@apikey = AL
+###
+GET {{baseUrl}}
+Content-Type: {{cType}}
+X-API-KEY:  {{apikey}}
